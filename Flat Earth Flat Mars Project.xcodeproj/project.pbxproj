@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4333EC2048C1B300526659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4333EB2048C1B300526659 /* AppDelegate.swift */; };
+		CB4333EE2048C1B300526659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4333ED2048C1B300526659 /* ViewController.swift */; };
+		CB4333F12048C1B300526659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4333EF2048C1B300526659 /* Main.storyboard */; };
+		CB4333F32048C1B300526659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4333F22048C1B300526659 /* Assets.xcassets */; };
+		CB4333F62048C1B300526659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4333F42048C1B300526659 /* LaunchScreen.storyboard */; };
+		CB4334012048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4334002048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB4333FD2048C1B300526659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4333E02048C1B300526659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4333E72048C1B300526659;
+			remoteInfo = "Flat Earth Flat Mars Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB4333E82048C1B300526659 /* Flat Earth Flat Mars Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flat Earth Flat Mars Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4333EB2048C1B300526659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB4333ED2048C1B300526659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB4333F02048C1B300526659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB4333F22048C1B300526659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB4333F52048C1B300526659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB4333F72048C1B300526659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4333FC2048C1B300526659 /* Flat Earth Flat Mars ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flat Earth Flat Mars ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4334002048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flat_Earth_Flat_Mars_ProjectTests.swift; sourceTree = "<group>"; };
+		CB4334022048C1B300526659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4333E52048C1B300526659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4333F92048C1B300526659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB4333DF2048C1B300526659 = {
+			isa = PBXGroup;
+			children = (
+				CB4333EA2048C1B300526659 /* Flat Earth Flat Mars Project */,
+				CB4333FF2048C1B300526659 /* Flat Earth Flat Mars ProjectTests */,
+				CB4333E92048C1B300526659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4333E92048C1B300526659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4333E82048C1B300526659 /* Flat Earth Flat Mars Project.app */,
+				CB4333FC2048C1B300526659 /* Flat Earth Flat Mars ProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4333EA2048C1B300526659 /* Flat Earth Flat Mars Project */ = {
+			isa = PBXGroup;
+			children = (
+				CB4333EB2048C1B300526659 /* AppDelegate.swift */,
+				CB4333ED2048C1B300526659 /* ViewController.swift */,
+				CB4333EF2048C1B300526659 /* Main.storyboard */,
+				CB4333F22048C1B300526659 /* Assets.xcassets */,
+				CB4333F42048C1B300526659 /* LaunchScreen.storyboard */,
+				CB4333F72048C1B300526659 /* Info.plist */,
+			);
+			path = "Flat Earth Flat Mars Project";
+			sourceTree = "<group>";
+		};
+		CB4333FF2048C1B300526659 /* Flat Earth Flat Mars ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4334002048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift */,
+				CB4334022048C1B300526659 /* Info.plist */,
+			);
+			path = "Flat Earth Flat Mars ProjectTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4333E72048C1B300526659 /* Flat Earth Flat Mars Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4334052048C1B300526659 /* Build configuration list for PBXNativeTarget "Flat Earth Flat Mars Project" */;
+			buildPhases = (
+				CB4333E42048C1B300526659 /* Sources */,
+				CB4333E52048C1B300526659 /* Frameworks */,
+				CB4333E62048C1B300526659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flat Earth Flat Mars Project";
+			productName = "Flat Earth Flat Mars Project";
+			productReference = CB4333E82048C1B300526659 /* Flat Earth Flat Mars Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB4333FB2048C1B300526659 /* Flat Earth Flat Mars ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4334082048C1B300526659 /* Build configuration list for PBXNativeTarget "Flat Earth Flat Mars ProjectTests" */;
+			buildPhases = (
+				CB4333F82048C1B300526659 /* Sources */,
+				CB4333F92048C1B300526659 /* Frameworks */,
+				CB4333FA2048C1B300526659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4333FE2048C1B300526659 /* PBXTargetDependency */,
+			);
+			name = "Flat Earth Flat Mars ProjectTests";
+			productName = "Flat Earth Flat Mars ProjectTests";
+			productReference = CB4333FC2048C1B300526659 /* Flat Earth Flat Mars ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4333E02048C1B300526659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "William Choi";
+				TargetAttributes = {
+					CB4333E72048C1B300526659 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CB4333FB2048C1B300526659 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB4333E72048C1B300526659;
+					};
+				};
+			};
+			buildConfigurationList = CB4333E32048C1B300526659 /* Build configuration list for PBXProject "Flat Earth Flat Mars Project" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4333DF2048C1B300526659;
+			productRefGroup = CB4333E92048C1B300526659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4333E72048C1B300526659 /* Flat Earth Flat Mars Project */,
+				CB4333FB2048C1B300526659 /* Flat Earth Flat Mars ProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4333E62048C1B300526659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4333F62048C1B300526659 /* LaunchScreen.storyboard in Resources */,
+				CB4333F32048C1B300526659 /* Assets.xcassets in Resources */,
+				CB4333F12048C1B300526659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4333FA2048C1B300526659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4333E42048C1B300526659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4333EE2048C1B300526659 /* ViewController.swift in Sources */,
+				CB4333EC2048C1B300526659 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4333F82048C1B300526659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4334012048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB4333FE2048C1B300526659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4333E72048C1B300526659 /* Flat Earth Flat Mars Project */;
+			targetProxy = CB4333FD2048C1B300526659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB4333EF2048C1B300526659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4333F02048C1B300526659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB4333F42048C1B300526659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4333F52048C1B300526659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4334032048C1B300526659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB4334042048C1B300526659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB4334062048C1B300526659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Flat Earth Flat Mars Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Flat-Earth-Flat-Mars-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB4334072048C1B300526659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Flat Earth Flat Mars Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Flat-Earth-Flat-Mars-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB4334092048C1B300526659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Flat Earth Flat Mars ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Flat-Earth-Flat-Mars-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flat Earth Flat Mars Project.app/Flat Earth Flat Mars Project";
+			};
+			name = Debug;
+		};
+		CB43340A2048C1B300526659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Flat Earth Flat Mars ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Flat-Earth-Flat-Mars-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flat Earth Flat Mars Project.app/Flat Earth Flat Mars Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4333E32048C1B300526659 /* Build configuration list for PBXProject "Flat Earth Flat Mars Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4334032048C1B300526659 /* Debug */,
+				CB4334042048C1B300526659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4334052048C1B300526659 /* Build configuration list for PBXNativeTarget "Flat Earth Flat Mars Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4334062048C1B300526659 /* Debug */,
+				CB4334072048C1B300526659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4334082048C1B300526659 /* Build configuration list for PBXNativeTarget "Flat Earth Flat Mars ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4334092048C1B300526659 /* Debug */,
+				CB43340A2048C1B300526659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4333E02048C1B300526659 /* Project object */;
+}
