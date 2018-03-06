@@ -12,7 +12,16 @@
 		CB4333F12048C1B300526659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4333EF2048C1B300526659 /* Main.storyboard */; };
 		CB4333F32048C1B300526659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4333F22048C1B300526659 /* Assets.xcassets */; };
 		CB4333F62048C1B300526659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4333F42048C1B300526659 /* LaunchScreen.storyboard */; };
-		CB4334012048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4334002048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift */; };
+		CB43340D2048C40000526659 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43340C2048C40000526659 /* AppCoordinator.swift */; };
+		CB4334112048C4B800526659 /* GridSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4334102048C4B800526659 /* GridSettingsViewController.swift */; };
+		CB4334132048C8EB00526659 /* GridSettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4334122048C8EB00526659 /* GridSettingsStoryboard.storyboard */; };
+		CBC8D95B2048F1080000B547 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8D95A2048F1080000B547 /* GridViewController.swift */; };
+		CBC8D95E2048F7A50000B547 /* GridManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8D95D2048F7A50000B547 /* GridManager.swift */; };
+		CBC8D9602048F7CC0000B547 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8D95F2048F7CC0000B547 /* Space.swift */; };
+		CBC8D9622048F8550000B547 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8D9612048F8550000B547 /* Rover.swift */; };
+		CBC8D966204A064B0000B547 /* GridManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8D965204A064B0000B547 /* GridManagerTests.swift */; };
+		CBC8D968204AFEF30000B547 /* RoverSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8D967204AFEF30000B547 /* RoverSettingsViewController.swift */; };
+		CBC8D96A204CDDE50000B547 /* RoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8D969204CDDE50000B547 /* RoverTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +43,17 @@
 		CB4333F52048C1B300526659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4333F72048C1B300526659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB4333FC2048C1B300526659 /* Flat Earth Flat Mars ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flat Earth Flat Mars ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4334002048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flat_Earth_Flat_Mars_ProjectTests.swift; sourceTree = "<group>"; };
 		CB4334022048C1B300526659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB43340C2048C40000526659 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CB4334102048C4B800526659 /* GridSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSettingsViewController.swift; sourceTree = "<group>"; };
+		CB4334122048C8EB00526659 /* GridSettingsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GridSettingsStoryboard.storyboard; sourceTree = "<group>"; };
+		CBC8D95A2048F1080000B547 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		CBC8D95D2048F7A50000B547 /* GridManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridManager.swift; sourceTree = "<group>"; };
+		CBC8D95F2048F7CC0000B547 /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		CBC8D9612048F8550000B547 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		CBC8D965204A064B0000B547 /* GridManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridManagerTests.swift; sourceTree = "<group>"; };
+		CBC8D967204AFEF30000B547 /* RoverSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverSettingsViewController.swift; sourceTree = "<group>"; };
+		CBC8D969204CDDE50000B547 /* RoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,10 @@
 		CB4333EA2048C1B300526659 /* Flat Earth Flat Mars Project */ = {
 			isa = PBXGroup;
 			children = (
+				CBC8D95C2048F7970000B547 /* Models */,
+				CB43340F2048C48900526659 /* View Controllers */,
+				CB43340E2048C48300526659 /* Views */,
+				CB43340B2048C3F200526659 /* Helpers */,
 				CB4333EB2048C1B300526659 /* AppDelegate.swift */,
 				CB4333ED2048C1B300526659 /* ViewController.swift */,
 				CB4333EF2048C1B300526659 /* Main.storyboard */,
@@ -90,10 +112,47 @@
 		CB4333FF2048C1B300526659 /* Flat Earth Flat Mars ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				CB4334002048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift */,
 				CB4334022048C1B300526659 /* Info.plist */,
+				CBC8D965204A064B0000B547 /* GridManagerTests.swift */,
+				CBC8D969204CDDE50000B547 /* RoverTests.swift */,
 			);
 			path = "Flat Earth Flat Mars ProjectTests";
+			sourceTree = "<group>";
+		};
+		CB43340B2048C3F200526659 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CB43340C2048C40000526659 /* AppCoordinator.swift */,
+				CBC8D95D2048F7A50000B547 /* GridManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CB43340E2048C48300526659 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB4334122048C8EB00526659 /* GridSettingsStoryboard.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB43340F2048C48900526659 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB4334102048C4B800526659 /* GridSettingsViewController.swift */,
+				CBC8D95A2048F1080000B547 /* GridViewController.swift */,
+				CBC8D967204AFEF30000B547 /* RoverSettingsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CBC8D95C2048F7970000B547 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8D95F2048F7CC0000B547 /* Space.swift */,
+				CBC8D9612048F8550000B547 /* Rover.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4334132048C8EB00526659 /* GridSettingsStoryboard.storyboard in Resources */,
 				CB4333F62048C1B300526659 /* LaunchScreen.storyboard in Resources */,
 				CB4333F32048C1B300526659 /* Assets.xcassets in Resources */,
 				CB4333F12048C1B300526659 /* Main.storyboard in Resources */,
@@ -199,7 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB43340D2048C40000526659 /* AppCoordinator.swift in Sources */,
+				CBC8D968204AFEF30000B547 /* RoverSettingsViewController.swift in Sources */,
+				CBC8D95E2048F7A50000B547 /* GridManager.swift in Sources */,
+				CBC8D9602048F7CC0000B547 /* Space.swift in Sources */,
+				CBC8D95B2048F1080000B547 /* GridViewController.swift in Sources */,
+				CBC8D9622048F8550000B547 /* Rover.swift in Sources */,
 				CB4333EE2048C1B300526659 /* ViewController.swift in Sources */,
+				CB4334112048C4B800526659 /* GridSettingsViewController.swift in Sources */,
 				CB4333EC2048C1B300526659 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4334012048C1B300526659 /* Flat_Earth_Flat_Mars_ProjectTests.swift in Sources */,
+				CBC8D96A204CDDE50000B547 /* RoverTests.swift in Sources */,
+				CBC8D966204A064B0000B547 /* GridManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
